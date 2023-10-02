@@ -1,0 +1,49 @@
+{
+  "name": "comp229-portfolio-assignment",
+  "version": "0.2.0",
+  "private": false,
+  "scripts": {
+    "start": "node ./server.js"
+  },
+  "engines": {
+    "node": "^14.17.5",
+    "npm": "^6.0.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "@types/connect-flash": "0.0.37",
+    "@types/express": "^4.17.13",
+    "@types/express-session": "^1.17.4",
+    "@types/passport": "^1.0.7",
+    "@types/passport-local-mongoose": "^6.1.0",
+    "bootstrap": "^5.1.1",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "express-session": "^1.17.2",
+    "http-errors": "~1.6.3",
+    "jquery": "^3.6.0",
+    "mongoose": "^6.0.9",
+    "morgan": "~1.9.1",
+    "passport": "^0.5.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.1.0",
+    "popper.js": "^1.16.1",
+    "serve-favicon": "^2.5.0"
+  },
+  "description": "COMP229 - Web Application Development\r Name: Ibrahem Aqel\r Student no.: 301139448",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:luke2134/Assignment1.git"
+  },
+  "author": "IbrahemAqel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luke2134/Assignment1.git"
+  },
+  "homepage": "https://github.com/luke2134/Assignment1.git"
+}
