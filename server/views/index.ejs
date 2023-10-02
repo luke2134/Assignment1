@@ -1,0 +1,27 @@
+<!-- Filename: views/partials/index.ejs
+Ibrahem Aqel Sit (# 301139448)
+Creation date: 2023/09/28
+last revision: 2023/09/30 -->
+
+<!-- The main ejs file of the site; Split into partials -->
+
+<!-- HTML head -->
+<%- include partials/header.ejs %> 
+<!-- Top navigation menu bar -->
+<%- include partials/main_nav.ejs %> 
+
+<!-- The main content displaying depending on title-->
+<% if (title == "Home") { %> 
+  <%- include partials/home.ejs %>
+<% } else if (title == "About Me") { %> 
+  <%- include partials/about.ejs %> 
+<% } else if (title == "Projects") { %> 
+  <%- include partials/projects.ejs %> 
+<% } else if (title == "Services") { %> 
+  <%- include partials/services.ejs %> 
+<% } else if (title == "Contact Me") { %> 
+  <%- include partials/contact.ejs %>
+<% } %> 
+
+<!-- the site footer -->
+<%- include partials/footer.ejs %> 

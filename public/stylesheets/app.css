@@ -1,0 +1,99 @@
+/* Filename: stylesheet/app.css
+  Ibrahem Aqel Sit (# 301139448)
+  Creation date: 2021/09/28
+  last revision: 2021/09/30 */
+
+/* The main CSS Stylesheets for the website */
+
+body {
+    color: white;
+    font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-color: #222D33; 
+    min-height: 100vh; 
+    position: relative;
+    padding-top: 100px;
+}
+
+
+a {
+    color: white;
+    text-decoration: underline;
+}
+
+a:visited, a:link {
+    color: white;
+}
+
+a:hover, a:active {
+    color: #4B7AB0;
+}
+
+/* Top navigation bar */
+.main-nav {
+    background-color: #4B7AB0;
+}
+
+/* Home Page */
+.home-nav a{
+    color: gray;
+    text-decoration: none;
+}
+
+.home-nav a:hover {
+    color: white;
+}
+
+.home-wrapper {
+    background-color: gray;
+}
+
+.home-nav-box {
+    background-color: #222D33;
+    height: 220px;
+    width: 220px;
+}
+
+/* About Me page */
+.about-image {
+    width: 300px;
+}
+
+.about-content {
+    min-width: 300px; 
+    width: 50vw;
+}
+
+/* Projects page */
+.project-image {
+    width: 80vw; 
+    max-width: 800px;
+}
+
+/* Services */
+.services-image {
+    width: 30vw; 
+    min-width: 300px;
+}
+
+/* Contact Me page */
+.contact-form-input {
+    width: 20%;
+    min-width: 280px;
+    margin-bottom: 5px;
+}
+
+.contact-form-msg {
+    width: 55%;
+    height: 170px;
+    min-width: 280px;
+}
+
+/* Footer */
+.footer {
+    position: absolute; 
+    padding: 5px 15px; 
+    bottom: 0; 
+    width: 100%; 
+    background-color: #4B7AB0; 
+    color:#222D33;
+}

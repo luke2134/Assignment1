@@ -1,0 +1,19 @@
+<!-- Filename: views/partials/contact.ejs
+Ibrahem Aqel Sit (# 301139448)
+Creation date: 2023/09/28
+last revision: 2023/09/30 -->
+
+<!-- A contact form. Submission redirects to home page for now, 
+    capturing the values for First Name, last name, number, email address and the message. -->
+<div class="container p-5 pt-0">
+  <form class="" action="/home">
+    <h2 class="mb-3">Drop me a message: </h2><br>
+    <input class="contact-form-input" type="text" id="contact-form-fname" name="fname" placeholder="First name"><br>
+    <input class="contact-form-input" type="text" id="contact-form-lname" name="lname" placeholder="Last name"><br>
+    <input class="contact-form-input" type="tel" id="contact-form-number" name="number" placeholder="Your contact number"><br>
+    <input class="contact-form-input" type="email" id="contact-form-email" name="email" placeholder="Your email address"><br>
+    <textarea class="contact-form-msg" id="contact-form-msg" name="message" placeholder="Your message..." ></textarea> <br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+  
